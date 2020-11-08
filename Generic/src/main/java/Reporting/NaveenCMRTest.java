@@ -46,7 +46,7 @@ public class NaveenCMRTest {
 // driver
     @BeforeMethod
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "D:\\IdeaProjects\\PracticeSelenium20\\Generic\\driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\tasha\\IdeaProjects\\Discord\\Generic\\driver\\chromedriver.exe");
         driver1 = new ChromeDriver();
         driver1.get("https://freecrm.com/");//https://disboard.org/
         driver1.manage().window().maximize();
